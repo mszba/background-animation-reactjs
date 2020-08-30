@@ -32,7 +32,66 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.balloon-animation {
+  position: relative;
+  background-color: #00e7ff;
+  height: 100vh;
+  width: 100%;
+}
+
+.flying-cloud {
+  position: absolute;
+  width: 20%;
+}
+
+.flying-balloon {
+  position: absolute;
+  width: 15%;
+  top: 20%;
+  left: 50%;
+}
+
+.flying-cloud:nth-child(1) {
+  left: 20%;
+  top: 30%;
+}
+
+.flying-cloud:nth-child(2) {
+  left: 58%;
+  top: 25%;
+}
+
+.flying-cloud:nth-child(3) {
+  left: 55%;
+  top: 76px;
+  z-index: 1;
+}
+
+.flying-cloud:nth-child(4) {
+  top: 30%;
+  left: 10%;
+}
+
+.flying-cloud:nth-child(5) {
+  top: 22%;
+  left: 40%;
+}
+
+.flying-cloud:nth-child(6) {
+  top: 39px;
+  left: 35%;
+  z-index: 1;
 }
